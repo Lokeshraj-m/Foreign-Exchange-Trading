@@ -10,19 +10,23 @@ public class Options {
 		System.out.println("Book Trade - 1");
 		System.out.println("Print Trade - 2");
 		System.out.println("Exit - 3");
-		int code = input.nextInt();
+		String code = input.next();
 		switch (code) {
-			case (1):
-				BookTrade.bookTrade();
+			case ("1"):
+				//Method to Book the Trade...
+				BookTrade.bookTrade();       
 			break;
-			case (2):
-				PrintTrade.printTrade();
+			case ("2"):
+				//Method to Print the List of Trade...
+				PrintTrade.printTrade();     
 			break;
-			case (3):
-				Exit.exit();
+			case ("3"):
+				//Method to Exit the console...
+				Exit.exit();                 
 			break;
 			default:
-				System.out.println("Invalid option...\nSelect valid option");
+				System.out.println("Invalid option...\nSelect valid option"); 
+				// Method to Print the List of Options like Book Trade, Print Trade and EXIT.
 				Options.options();
 		}
 	}
