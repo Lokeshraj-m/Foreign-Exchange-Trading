@@ -45,13 +45,13 @@ Do you want to get Rate
 
 Yes
 
-You are transferring INR 66,0000 to John M.( Assuming that rate was 66.00)
+You are transferring INR 66,000 to John M.( Assuming that rate was 66.00)
 
 Book/Cancel this trade?
 
 Book - Trade should be booked and confirmation to be displayed as below
 
-Trade for USDINR has been booked with rate 66.00 , The amount of Rs 66,0000 will  be transferred in 2 working days to John M..
+Trade for USDINR has been booked with rate 66.00 , The amount of Rs 66,000 will  be transferred in 2 working days to John M..
 
 Cancel : Print message as below
 
